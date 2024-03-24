@@ -10,4 +10,4 @@
 /recovery     emmc     /dev/block/bootdevice/by-name/recovery     flags=display=recovery
 /misc         emmc     /dev/block/bootdevice/by-name/misc         flags=display=misc
 /otg          vfat     /dev/block/sdg                             flags=display=otg
-/storage f2fs     /dev/block/bootdevice/by-name/userdata/media/0  flags=display=Internal Storage
+/storage      f2fs     /dev/block/bootdevice/by-name/userdata/media/0  flags=display=Internal Storage
