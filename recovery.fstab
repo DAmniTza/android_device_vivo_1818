@@ -1,4 +1,4 @@
-/system       ext4     /dev/block/bootdevice/by-name/system       flags=display=system
+/             ext4     /dev/block/bootdevice/by-name/system       flags=display=system
 /vendor       ext4     /dev/block/bootdevice/by-name/vendor       flags=display=vendor
 /oem          ext4     /dev/block/by-name/oem                     flags=display=oem
 /vgc          ext4     /dev/block/by-name/vgc                     flags=display=vgc
@@ -10,4 +10,4 @@
 /recovery     emmc     /dev/block/bootdevice/by-name/recovery     flags=display=recovery
 /misc         emmc     /dev/block/bootdevice/by-name/misc         flags=display=misc
 /otg          vfat     /dev/block/sdg                             flags=display=otg
-/storage      f2fs     /data/media/0                              flags=display=Internal Storage
+/data/media/0 f2fs     /dev/block/bootdevice/by-name/userdata     flags=display=Internal Storage
